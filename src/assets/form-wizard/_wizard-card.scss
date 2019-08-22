@@ -89,9 +89,13 @@
     .wizard-progress-with-circle {
       position: relative;
       top: 40px;
-      height: 4px;
+      height: 10px;
+
+      background-color: #CAD2E0;
+      border-radius: 5px;
 
       .wizard-progress-bar {
+        background-image: linear-gradient(to right, #47c1c0, #1f5fac);
         box-shadow: none;
         -webkit-transition: width .3s ease;
         -o-transition: width .3s ease;

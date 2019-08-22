@@ -205,9 +205,9 @@
       },
       progressBarStyle () {
         return {
-          backgroundColor: this.color,
           width: `${this.progress}%`,
-          color: this.color
+          color: this.color,
+          borderRadius: '5px'
         }
       },
       fillButtonStyle () {
